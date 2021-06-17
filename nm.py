@@ -27,6 +27,7 @@ students = [
 result = filter(lambda x: x.get('age') > 20, students)
 print(list(result))
 
+
 # 对 age 从小到大排列
 sort = sorted(students, key=lambda x: x.get('age'), reverse=True)
 print(sort)
